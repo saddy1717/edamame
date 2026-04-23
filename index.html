@@ -455,9 +455,6 @@ function renderSettings(){
     msg.textContent='保存しました。出産後タスクの日程も再計算されました';
     setTimeout(function(){msg.textContent='';},3000);
   });
-    saveSettingsToFirebase();
-    const msg=document.getElementById('saved-msg');msg.textContent='\u4fdd\u5b58\u3057\u307e\u3057\u305f';setTimeout(function(){msg.textContent='';},2000);
-  });
 }
 
 // ===== 起動 =====
